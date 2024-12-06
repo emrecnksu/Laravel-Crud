@@ -1,0 +1,73 @@
+body .container-bg {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(../css/images/register.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 905px) {
+  body {
+      background-size: auto; 
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1004px) {
+  .container .container-bg .form-label {
+      font-size: 15px;
+  }
+
+  .container .text-center .log-button {
+      font-size: 17px;
+  }
+
+  .form-label {
+      font-size: 14px;
+  }
+
+  .form-control {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+}
+
+@media (min-width: 1005px) and (max-width: 1024px) {
+  .container .container-bg .form-label {
+      font-size: 19px;
+  }
+
+  .container .text-center .log-button {
+      font-size: 17px;
+  }
+
+  .form-label {
+      font-size: 14px;
+  }
+
+  .form-control {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 2300px) {
+  body {
+      background-size: auto; 
+  }
+}
